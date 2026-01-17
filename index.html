@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">QuickNotes</h1>
+        <div class="btn-container">
+            <button type="button" class="crud-button">Create</button>
+            <button type="button" class="crud-button">View</button>
+            <button type="button" class="crud-button">Update</button>
+            <button type="button" class="crud-button">Delete</button>
+        </div>
+        <form class="note-form">
+            <!-- Title -->
+             <input 
+                type="number"
+                class="note-id"
+                placeholder="Note ID"
+                style="display: none;"
+            />
+            <input 
+                type="text" 
+                class="note-title" 
+                placeholder="Title"  
+            />
+            <!-- Content -->
+            <textarea 
+                class="note-content" 
+                placeholder="Write your note here..." 
+                rows="5" 
+            ></textarea>
+
+            <!-- Buttons (you can wire later) -->
+            <button type="submit" class="submit-btn">Save Note</button>
+        </form>
+        <p class="save-message" style="display:none;color:#16a34a;font-weight:500;">
+            Note saved
+        </p>
+        <div class="notes-list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
