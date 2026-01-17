@@ -1,4 +1,4 @@
-# QuickNotes 📝
+# QuickNotes
 
 QuickNotes is a full-stack note-taking application built using Node.js, Express, and vanilla JavaScript.  
 It supports complete CRUD operations with a simple, mode-based UI and persistent storage using a JSON file.
@@ -7,7 +7,7 @@ This project focuses on understanding REST APIs, frontend–backend integration,
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Create notes with title and content  
 - View notes by ID  
@@ -19,7 +19,7 @@ This project focuses on understanding REST APIs, frontend–backend integration,
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Frontend**
 - HTML
@@ -29,29 +29,13 @@ This project focuses on understanding REST APIs, frontend–backend integration,
 **Backend**
 - Node.js
 - Express.js
-- File system (JSON storage)
-
-**Project Structure**
- QuickNotes/
-├─ frontend/
-│ ├─ index.html
-│ ├─ script.js
-│ └─ styles.css
-│
-├─ backend/
-│ ├─ server.js
-│ ├─ package.json
-│ ├─ package-lock.json
-│ └─ NOTES.json
-│
-└─ .gitignore
-
+- File system (JSON storage
 
 ---
 
-## ⚙️ How to Run Locally
+##  How to Run Locally
 
-### 1️⃣ Clone the repository
+### 1️ Clone the repository
 ```bash
 git clone https://github.com/durgeshkhushlani/QuickNotes.git
 cd QuickNotes/backend
@@ -82,5 +66,4 @@ Deployment (Render / Railway)
 
 **Author**
 Durgesh Khushlani
-## 📂 Project Structure
 
