@@ -40,30 +40,31 @@ This project focuses on understanding REST APIs, frontend–backend integration,
 git clone https://github.com/durgeshkhushlani/QuickNotes.git
 cd QuickNotes/backend
 ```
-Install Dependencies
+2. Install Dependencies
 
 npm install
 
-Start the server
+3. Start the server
 
 node server.js
 
-Open in browser 
+4. Open in browser 
 
 http://localhost:3000
 
 **Future Improvements**
 
-View / delete notes by title
+- View / delete notes by title
 
-Database integration (MongoDB / PostgreSQL)
+- Database integration (MongoDB / PostgreSQL)
 
-Authentication
+- Authentication
 
-Better UI & animations
+- Better UI & animations
 
-Deployment (Render / Railway)
+- Deployment (Render / Railway)
 
 **Author**
+
 Durgesh Khushlani
 
